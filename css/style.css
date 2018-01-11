@@ -4,3 +4,70 @@
 	padding: 0;
 }
 
+body {
+	background-color: #eaddbb;
+}
+
+section {
+	width: 100%;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.column-container {
+	display: flex;
+	justify-content: center;
+}
+
+.column-title {
+	margin-top:15px;
+}
+
+.column-title {
+	background-color:grey;
+	margin-right: 10px;
+	width: 150px;
+
+}
+
+.btn-delete {
+	height: 20px;
+	width: 50px;
+	background-color:#ff2d2d;
+	margin-left: -10px;
+}
+
+.add-card {
+	height: 20px;
+	width: 100px;
+	background-color:#6cce37;
+}
+
+.create-column {
+	width: 300px;
+	height: 50px;
+}
+
+ul {
+	list-style-type: none;
+	margin-top:15px;
+}
+
+li.card {
+	background-color:#baeefc;
+	width:150px;
+	min-height: 100px;
+	border: 1px solid black;
+	margin-bottom: 15px;
+}
+
+.card-description {
+	font-size: 20px;
+	text-align: center;
+	margin: 10px 0;
+
+}
+
+#board {
+	text-align: center;
+}
